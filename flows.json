@@ -1,0 +1,53 @@
+[
+    {
+        "id": "cc172c733ce32462",
+        "type": "ui_switch",
+        "z": "cf84ef8e6827d2a8",
+        "name": "",
+        "label": "Botão temperatura",
+        "tooltip": "",
+        "group": "caa5656ed4d037a8",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": "false",
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "onvalue": "true",
+        "onvalueType": "bool",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "bool",
+        "officon": "",
+        "offcolor": "",
+        "animate": false,
+        "className": "",
+        "x": 910,
+        "y": 960,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "caa5656ed4d037a8",
+        "type": "ui_group",
+        "name": "Temps",
+        "tab": "b9439c63ed75c7a8",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "b9439c63ed75c7a8",
+        "type": "ui_tab",
+        "name": "Osasco",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    }
+]
